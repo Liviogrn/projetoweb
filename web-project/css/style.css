@@ -1,40 +1,122 @@
 body{
-    background-color: aquamarine;
-
-
+    background-color: #f0f0f0;
+    color: #1a1a1a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
 }
 
 header {
-    background-color: coral;
-    padding: 20px;
+    background-color: #1a1a1a;
+    padding: 30px;
     text-align: center;
     font-size: 35px;
-    color: white;
-    font-family: 'Arial', sans-serif;
-    margin: 45px;
-    border-radius: 35px;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 footer {    
-    background-color: coral;
-    padding: 10px;
+    background-color: #1a1a1a;
+    padding: 20px;
     text-align: center;
-    color: white;
-    font-family: 'Arial', sans-serif;;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 100%;
     bottom: 0;
+    margin-top: 40px;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.3);
 }
 
 nav {
-    background-color: lightseagreen;
+    background-color: #4a4a4a;
     padding: 15px;
     text-align: center;
-    font-family: 'Arial', sans-serif;
-    border-radius: 85px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 8px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #666666;
+    border-radius: 4px;
 }
 
 #menu_home {
     font-weight: bold;
-    font-size: 50px;
-    background-color: navy;
+}
+
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+    color: #1a1a1a;
+    border-bottom: 3px solid #4a4a4a;
+    padding-bottom: 15px;
+}
+
+h2 {
+    color: #1a1a1a;
+    margin-top: 30px;
+}
+
+a {
+    color: #333333;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    border: none;
+}
+
+table th {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 12px;
+    text-align: left;
+}
+
+table td {
+    padding: 12px;
+    border-bottom: 1px solid #d0d0d0;
+}
+
+table tr:hover {
+    background-color: #e8e8e8;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin: 20px 0;
 }
